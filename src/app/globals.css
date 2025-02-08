@@ -1,24 +1,22 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --white: #ffffff;
+  --black: #000;
+  --purple: #6F4090B0;
+  --purple-light: #D5B4EC;
+  --purple-dark: #6F4090;
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+
+  zoom: 125%;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--black);
+  background: var(--white);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -33,10 +31,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

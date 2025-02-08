@@ -1,0 +1,22 @@
+.top__container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  p {
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    color: var(--black);
+
+    max-width: 260px;
+
+    strong {
+      font-weight: 700;
+    }
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+  }
+}

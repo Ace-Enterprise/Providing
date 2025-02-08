@@ -1,0 +1,27 @@
+.nav__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--purple);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    .nav__links {
+        display: flex;
+        align-items: center;
+
+        .nav__link {
+            margin-left: 1rem;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s;
+            list-style-type: none;
+
+            &:hover {
+                color: #007bff;
+            }
+        }
+    }
+}

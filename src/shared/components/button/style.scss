@@ -1,0 +1,25 @@
+.button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .4rem .8rem;
+  background-color: var(--purple-dark);
+  border-radius: 5px;
+  margin: 1rem 0;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: var(--purple-light);
+  text-decoration: none;
+  list-style-type: none;
+
+  &:hover {
+    background-color: #007bff;
+  }
+}

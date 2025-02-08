@@ -1,0 +1,47 @@
+.about-school__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 100%;
+
+    background-color: var(--purple-light);
+    
+    line-height: 1.8rem;
+
+
+    .about-school__left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    img {
+        width: 400px;
+        height: auto;
+    }
+    
+    h1 {
+        font-weight: 700;
+        font-family: Inter, sans-serif;
+        color: var(--purple-dark);
+    }
+    
+    p {
+        font-weight: 400;
+        font-family: Ubuntu, sans-serif;
+        color: var(--black);
+        width: 300px;
+    
+        @media screen and (max-width: 768px) {
+        width: 100%;
+        }
+    
+        strong {
+        font-weight: 700;
+        }
+    }
+}
