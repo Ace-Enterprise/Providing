@@ -1,0 +1,97 @@
+.card__container__dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 5px;
+  max-width: 400px;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+
+  background-color: var(--purple-dark);
+
+  line-height: 1.8rem;
+
+  h1 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+    color: var(--purple-light);
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    color: var(--purple-light);
+  }
+
+  p {
+    font-weight: 400;
+    font-family: Ubuntu, sans-serif;
+    color: var(--purple-light);
+    width: 50%;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+  }
+}
+
+.card__container__light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 5px;
+  max-width: 400px;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+
+  background-color: var(--purple-light);
+
+  line-height: 1.8rem;
+
+  h1 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+    color: var(--purple-dark);
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    color: var(--purple-dark);
+  }
+
+  p {
+    font-weight: 400;
+    font-family: Ubuntu, sans-serif;
+    color: var(--purple-dark);
+    width: 50%;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+  }
+}
