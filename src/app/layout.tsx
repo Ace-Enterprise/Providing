@@ -27,6 +27,9 @@ export default function RootLayout({
       <body className={`${fontMontserrat.variable} ${fontInter.variable} `}>
         <Nav />
         {children}
+        <footer style={{ height: "200px", width: "100%", marginTop: 50, backgroundColor: "#401460" }}>
+
+        </footer>
       </body>
     </html>
   );

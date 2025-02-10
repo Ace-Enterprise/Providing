@@ -1,0 +1,67 @@
+.top {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--purple-dark);
+    font-family: "Ubuntu";
+  }
+
+  .top__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    p {
+      font-size: 1.2rem;
+      color: var(--black);
+      font-family: "Ubuntu";
+      width: 80%;
+    }
+  }
+
+  .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 1rem;
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+    img {
+      width: 400px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .bottom__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    p {
+      font-size: 1.2rem;
+      color: var(--black);
+      font-family: "Ubuntu";
+      width: 80%;
+    }
+  }
+}

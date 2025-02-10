@@ -1,0 +1,68 @@
+.mission__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+  background-color: var(--purple-light);
+  gap: 2rem;
+  margin-top: 50px;
+
+  font-family: Ubuntu, sans-serif;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--purple-dark);
+    font-family: "Ubuntu";
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    p {
+      font-size: 1.2rem;
+      color: var(--black);
+      font-family: "Ubuntu";
+      width: 70%;
+      text-align: center;
+    }
+  }
+
+  .values {
+    display: grid;
+    gap: 3rem;
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+
+    .value {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 1rem;
+
+      h3 {
+        font-size: 1.5rem;
+        color: var(--purple-dark);
+        font-family: "Ubuntu";
+      }
+
+      p {
+        font-size: 1.2rem;
+        color: var(--black);
+        font-family: "Ubuntu";
+        width: 80%;
+        text-align: center;
+
+        border-bottom: 2px solid var(--purple-dark);
+      }
+    }
+  }
+}
