@@ -8,7 +8,7 @@ interface CarousselProps {
     title: string;
     subtitle?: string;
     description: string;
-    image: string;
+    image?: string;
     type: "dark" | "light";
   }[];
 }

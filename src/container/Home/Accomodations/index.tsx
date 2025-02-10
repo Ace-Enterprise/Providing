@@ -7,24 +7,21 @@ import { Caroussel } from "@/shared/components/caroussel";
 export const Accomodations = () => {
   const accomodationsArr = [
     {
-      title: "Quarto compartilhado",
+      title: "Casa de Família (Homestay)",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis, dui nec auctor luctus, nunc nisl ultricies nunc, nec condimentum turpis nunc vel nunc. Nullam nec eros vel nunc scelerisque.",
-      image: "/shared-room.jpg",
+        "Viva com uma família sul-africana e experimente a cultura local no dia a dia. Essa é a melhor escolha para quem busca imersão completa no idioma e nos costumes.",
       type: CardType.dark,
     },
     {
-      title: "Quarto individual",
+      title: "Casa de Estudantes",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis, dui nec auctor luctus, nunc nisl ultricies nunc, nec condimentum turpis nunc vel nunc. Nullam nec eros vel nunc scelerisque.",
-      image: "/private-room.jpg",
-      type: CardType.light,
+        "Ideal para quem prefere uma rotina independente e gosta de socializar com pessoas do mundo todo.",
+      type: CardType.dark,
     },
     {
-      title: "Apartamento",
+      title: "Residência Estudantil",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis, dui nec auctor luctus, nunc nisl ultricies nunc, nec condimentum turpis nunc vel nunc. Nullam nec eros vel nunc scelerisque.",
-      image: "/apartment.jpg",
+        "Localizada dentro ou próximo à escola, oferece praticidade para sua rotina de estudos e uma atmosfera focada no aprendizado.",
       type: CardType.dark,
     },
   ];

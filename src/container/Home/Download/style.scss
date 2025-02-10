@@ -1,0 +1,94 @@
+.download__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 5px;
+  width: 100%;
+  line-height: 1.8rem;
+
+  h1 {
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    color: var(--purple-dark);
+    width: 70%;
+    text-align: center;
+  }
+
+  .download__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .download__content__left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 50%;
+      img {
+        width: 500px;
+        height: auto;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
+    .download__content__right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 50%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 1rem;
+      }
+
+      p {
+        font-weight: 400;
+        font-family: Ubuntu, sans-serif;
+        color: var(--black);
+        width: 70%;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
+      }
+
+      .download__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 5px;
+        background-color: var(--yellow);
+        color: var(--purple-dark);
+        font-weight: 700;
+        font-family: Inter, sans-serif;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        text-align: center;
+        border: none;
+
+        &:hover {
+          background-color: var(--purple-light);
+        }
+
+        
+      }
+    }
+  }
+}
