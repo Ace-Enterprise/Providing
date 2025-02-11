@@ -1,12 +1,14 @@
 import React from "react";
-
 import "./style.scss";
-
-export const Formulary = () => {
+export const FormularyRegister = () => {
   return (
     <div className="formulary__container">
       <h1>Entre em Contato</h1>
-      <form action="https://formsubmit.co/wiestmiguel@gmail.com" method="POST">
+      <form
+        action="https://formsubmit.co/contato@providing.com.br"
+        method="POST"
+      >
+        <input type="hidden" name="Formulário para registro" value="" />
         <label>
           Nome:
           <input type="text" name="Nome" />
@@ -19,6 +21,7 @@ export const Formulary = () => {
           telefone:
           <input type="tel" name="Telefone" />
         </label>
+
         <label>
           Acomodação:
           <select name="Acomodação">
@@ -82,11 +85,7 @@ export const Formulary = () => {
         </label>
 
         <input type="hidden" name="_captcha" value="false" />
-        <input
-          type="hidden"
-          name="_next"
-          value="https://providing.com.br"
-        />
+        <input type="hidden" name="_next" value="https://providing.com.br" />
         <button type="submit">Enviar</button>
       </form>
     </div>

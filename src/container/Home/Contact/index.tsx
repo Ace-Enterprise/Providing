@@ -1,12 +1,12 @@
 import React from "react";
 
 import "./style.scss";
-import { Formulary } from "@/shared/components/formulary";
+import { FormularyRegister } from "@/shared/components/formularyRegister";
 
 export const Contact = () => {
   return (
     <section className="contact__container">
-      <Formulary />
+      <FormularyRegister />
     </section>
   );
 };
