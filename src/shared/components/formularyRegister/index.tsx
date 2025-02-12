@@ -25,6 +25,7 @@ export const FormularyRegister = () => {
         <label>
           Acomodação:
           <select name="Acomodação">
+            <option value="">Selecione</option>
             <option>Casa de Família (Homestay)</option>
             <option>Residência Estudantil</option>
             <option>Residência Escolar</option>
@@ -33,6 +34,7 @@ export const FormularyRegister = () => {
         <label>
           Curso:
           <select name="Curso">
+            <option value="">Selecione</option>
             <option value="intensive">Intensivo</option>
             <option value="semi-intensive">Semi-Intensivo</option>
           </select>
@@ -40,6 +42,7 @@ export const FormularyRegister = () => {
         <label>
           Faixa de idade:
           <select name="Faixa de idade">
+            <option value="">Selecione</option>
             <option>18-25</option>
             <option>26-35</option>
             <option>36-45</option>
@@ -50,6 +53,7 @@ export const FormularyRegister = () => {
         <label>
           Intenção de viagem:
           <select name="Intenção de viagem">
+            <option value="">Selecione</option>
             <option>Crescimento na carreira; experiência cultural</option>
             <option>Realização de um sonho</option>
             <option>Aprender novo idioma</option>
@@ -60,6 +64,7 @@ export const FormularyRegister = () => {
         <label>
           Atuação:
           <select name="Atuação">
+            <option value="">Selecione</option>
             <option>Trabalhar</option>
             <option>Estudar</option>
             <option>Estudo e Trabalho</option>
@@ -68,6 +73,7 @@ export const FormularyRegister = () => {
         <label>
           Gênero:
           <select name="Gênero">
+            <option value="">Selecione</option>
             <option>Feminino</option>
             <option>Masculino</option>
             <option>Outro</option>
@@ -76,6 +82,7 @@ export const FormularyRegister = () => {
         <label>
           Raça
           <select name="Raça">
+            <option value="">Selecione</option>
             <option>Branca</option>
             <option>Parda</option>
             <option>Preta</option>
