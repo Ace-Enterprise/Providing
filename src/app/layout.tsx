@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Montserrat } from "next/font/google";
+import { Inter, Montserrat, Ubuntu } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/shared/components/nav";
 
@@ -13,6 +13,12 @@ const fontInter = Inter({
   subsets: ["latin"],
 });
 
+const fontUbuntu = Ubuntu({
+  variable: "--font-ubuntu",
+  subsets: ["latin"],
+  weight: "400",
+});
+
 export const metadata: Metadata = {
   title: "Provinding",
 };
@@ -24,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`${fontMontserrat.variable} ${fontInter.variable} `}>
+      <body className={`${fontMontserrat.variable} ${fontInter.variable} ${fontUbuntu.variable}`}>
         <Nav />
         {children}
         <footer
