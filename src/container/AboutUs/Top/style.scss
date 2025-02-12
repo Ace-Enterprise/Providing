@@ -5,12 +5,13 @@
   align-items: center;
   flex-direction: column;
   gap: 3rem;
+  font-family: Inter, sans-serif;
 
   .title {
     font-size: 2rem;
     font-weight: 700;
     color: var(--purple-dark);
-    font-family: "Ubuntu";
+    font-family: Inter, sans-serif;
   }
 
   .top__content {
@@ -23,7 +24,7 @@
     p {
       font-size: 1.2rem;
       color: var(--black);
-      font-family: "Ubuntu";
+      font-family: Inter, sans-serif;
       width: 80%;
     }
   }
@@ -60,7 +61,7 @@
     p {
       font-size: 1.2rem;
       color: var(--black);
-      font-family: "Ubuntu";
+      font-family: Inter, sans-serif;
       width: 80%;
     }
   }
